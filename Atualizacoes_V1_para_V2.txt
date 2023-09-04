@@ -1,0 +1,31 @@
+----------------------------SEÇÕES----------------------------
+
+PÁGINA PRINCIPAL
+- Landing Page principal efeito paralax
+- Tema tecnologia cores predominantes verde muito escuro (em contraste com o preto)
+- Verde claro, amarelo, vermelho da identidade visual. 
+Importante: ser responsivo ao tamanho da tela (celular / pad / computador)
+
+----------------------------NAVBAR----------------------------
+
+PÁGINA - Soluções de hoje (DROPDOWN)
+Drop 1 - Telecom: http://portalsdwan.com.br/index.html
+Drop 2 - BPO: http://portalsdwan.com.br/bpo.html
+Drop 3 - SDWAN: http://portalsdwan.com.br/Definition.html
+
+PÁGINA - Cobertura
+Base de dados de Cobertura: http://portalsdwan.com.br/icobn.html
+
+
+PÁGINA - Sobre (DROPDOWN)
+Drop 1 - Apresentação da empresa
+Drop 2 - Filosofia de trabalho
+Drop 3 - Histórico
+
+PÁGINA - Contato (DROPDOWN)
+Drop 1 - indicar o nosso WhatsApp (final 7070) atendimento / vendas e suporte
+       - formulário de contato
+Drop 2 - Parceiro TalkD: http://portalsdwan.com.br/ipar.html
+
+PÁGINA - Intranet
+Portal TalkD: portal da Talkd

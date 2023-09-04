@@ -1,0 +1,22 @@
+#cobertura{
+    background-image: url(https://www.green4t.com/wp-content/uploads/2022/06/telecomunicacoes-e-ti-na-era-digital-1280x627.jpg);
+    padding-bottom: 50px;
+}
+
+#txt-cobertura{
+    padding: 50px;
+}
+
+.espac-parag{
+    padding-bottom: 20px;
+}
+.espac-parag:last-child{
+    padding-bottom: 0;
+}
+
+#img-txt-cobertura{
+    width: 100%;
+    background-size: auto;
+    background-position: center;
+    border-radius: 50px;
+}

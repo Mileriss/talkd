@@ -1,0 +1,161 @@
+/* SOLUÇÕES DIGITAIS*/
+#solucoes-talkd{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_1280.jpg);
+}
+
+#txt-sol-talkd{
+    text-align: justify;
+}
+
+.sub-titulo{
+    width: 100%;
+    text-shadow: 0px 5px 5px purple;
+    padding: 25px;
+}
+
+#grid-solucoes{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    place-items: center;
+    align-items: center;
+}
+
+.alinhamento-grid-solucoes{
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.div-grid-solucoes{
+    padding: 20px;
+}
+
+.titulo-item-grid-solucoes, .titulo-isps, .titulo-provedores, .titulo-ativ-servicos{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.titulo-isps{
+    background-color: rgba(102, 51, 153, 0.8);
+    border: 5px outset rebeccapurple;
+    box-shadow: 0 0 10px rebeccapurple;
+}
+
+.titulo-provedores{
+    background-color: rgba(218, 165, 32, 0.8);
+    border: 5px outset goldenrod;
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.titulo-ativ-servicos{
+    background-color: rgba(46, 139, 86, 0.8);
+    border: 5px outset seagreen;
+    box-shadow: 0 0 10px seagreen;
+}
+
+.txt-lista-grid{
+    color: black !important;
+    box-shadow: 0 0 5px white;
+    padding: 10px;
+    background-color: darkgrey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*BPO*/
+#bpo{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_1280.jpg);
+}
+
+#bpo-metodologia{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.div-bpo-item, .div-beneficios{
+    /* background: linear-gradient(to bottom, black, rgba(119, 136, 153, 0.4), black); */
+    background: linear-gradient(to bottom, rgba(119, 136, 153, 0.2), rgba(119, 136, 153, 0.5), rgba(119, 136, 153, 0.2));
+    box-shadow: 0px 0px 15px black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 20px auto;
+    padding: 10px;
+    width: 50%;
+    height: fit-content;
+    
+}
+
+.titulo-bpo-item{
+    color: darkseagreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista-bpo-item{
+    list-style-type: unset;
+}
+
+.item-bpo-lista{
+    color: white;
+    padding: 10px;
+}
+
+.icone-flecha-baixo{
+    font-size: 50px;
+    color: white;
+    
+    padding: 20px;
+    animation: seta-movendo 1s ease-in-out infinite alternate;
+}
+
+@keyframes seta-movendo {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+    
+}
+
+#bpo-beneficios{
+    padding-bottom: 20px;
+}
+
+.div-beneficios{
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border: 2px goldenrod;
+    width: fit-content !important;
+}
+
+
+/*SDWAN*/
+#sdwan{
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/18/02/16/luminous-7204052_1280.jpg);
+    padding-bottom: 20px;
+}
+
+#div-txt-apres-sdwan{
+    /* margin: 0 auto; */
+    text-align: justify;
+}
+
+#bloco-txt-sdwan{
+    margin: 0 auto;
+}
+
+.parag-txt-sdwan{
+    padding: 25px;
+    margin: 0 auto;
+}

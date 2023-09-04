@@ -1,0 +1,123 @@
+---------------HTML---------------
+        <!--Formulário contato-->
+        <div id="form-contato-pag-inicial" class="col-auto">
+          <form id="form-contato" class="grid-form-contato">
+            <label id="lbl-nome" class="lbl" for="inp-nome">Nome:</label>
+            <input id="inp-nome" class="inp" type="text" minlength="5" maxlength="12" required placeholder="Digite seu nome aqui..." /><br />
+            <label id="lbl-email" class="lbl" for="inp-email">E-mail:</label>
+            <input id="inp-email" class="inp" type="email" required placeholder="Digite seu e-mail aqui..." /><br />
+            <label id="lbl-contato" class="lbl" for="inp-contato">Contato:</label>
+            <input id="lbl-contato" class="inp" type="number" required placeholder="Deixe seu nº de contato..." /><br />
+            <label id="lbl-area-contato" class="lbl" for="txt-area-contato">Deixe sua solicitação:</label><br />
+            <textarea id="txt-area-contato" class="inp"></textarea><br />
+            <button id="btn-contato-enviar" class="btn">Enviar</button>
+          </form>
+        </div>
+
+---------------CSS---------------
+
+#form-contato-pag-inicial {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    place-items: center;
+    border: 2px solid purple;
+    text-align: center;
+}
+
+@media screen and (min-width:350px) and (max-width:767px) {
+    #form-contato-pag-inicial {
+        margin: 0 auto;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        
+    }
+    
+}
+
+.lbl {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 28px;
+    margin: 10px auto;
+}
+@media screen and (min-width: 350px) and (max-width:767px) {
+    .lbl{
+        font-size: 25px;
+        
+    }
+    
+}
+
+.inp {
+    width: 30vh;
+    font-family: 'Share Tech', sans-serif;
+    background-color: dimgray;
+    font-size: 23px;
+    border-radius: 5px;
+    color: black;
+}
+
+@media screen and (min-width:350px) and (max-width:767px){
+    .inp{
+        height: 5vh;
+        font-size: 18px;
+    }
+}
+
+.inp::placeholder {
+    font-size: 18px;
+    color: black;
+}
+
+.inp:focus {
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: 0 0 3px 2px white;
+    border-radius: 10px;
+}
+
+#txt-area-contato {
+    height: 20vh;
+    width: 100%;
+    font-family: 'Share Tech', sans-serif;
+    max-height: 25vh;
+    font-size: 20px;
+}
+@media screen and (min-width:350px) and (max-width:767px){
+    #txt-area-contato{
+        font-size: 18px;
+        min-height: 10vh;
+        height: 10vh;
+        max-height: 10vh;
+    }
+}
+
+#btn-contato-enviar {
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 20vh;
+}
+@media screen and (min-width:350px) and (max-width:767px){
+    #btn-contato-enviar{
+        height:auto;
+        width: fit-content;
+        font-weight: bold;
+    }
+}
+
+#btn-contato-enviar:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: 0.5s;
+}

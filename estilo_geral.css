@@ -1,0 +1,261 @@
+/*FORMATAÇÃO GERAL */
+a {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    color: goldenrod;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*IMAGEM QUE FICA DE FUNDO EM TODAS AS SEÇÕES(PARALAX)*/
+.img-de-fundo {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*FUNDO PRETO COM UM POUCO DE TRANSPARENCIA QUE FICA NOS BLOCOS DE TEXTO*/
+.bloco-background{
+    background-color:rgba(0, 0, 0, 0.9);
+    border: 1px solid dimgray;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/*TITULO PRINCIPAL DE CADA SEÇÃO*/
+.titulo-principal {
+    font-size: 50px;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: 'Tektur', cursive;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .titulo-principal{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/*SUB-TITULOS DE CADA SEÇÃO OU DE CADA DIV DA SEÇÃO*/
+.sub-titulo {
+    color: goldenrod;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .sub-titulo{
+        font-size: 15px;
+    }
+}
+
+/*ESPAÇAMENTO DE ICONES UTILIZADOS NAS DIV SOLUÇÕES DIGITAIS*/
+.espacamento-icones{
+    margin: 0 20px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .espacamento-icones{
+        margin: 0 10px;
+    }
+}
+
+@keyframes flutuando {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+
+}
+
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DE INTRODUÇÃO DE CADA SEÇÃO*/
+.background-txt{
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px black;
+    border-top: 5px ridge black;
+    border-bottom: 5px ridge black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .background-txt{
+        padding: 10px;
+    }
+}
+
+.txt-principal{
+    text-shadow: 1px 2px 1px dimgray;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px) {
+    .txt-principal{
+        font-size: 12px;
+    } 
+}
+
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DAS LISTAS*/
+.txt-listas{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px) {
+    .txt-listas{
+        font-size: 12px !important;
+        text-align: left;
+    }
+    
+}
+
+/*FORMATAÇÃO UTILIZADA NOS TEXTOS DOS GRIDS*/
+.txt-grid{
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+@media screen and (min-width: 350px) and (max-width: 667px){
+    .txt-grid{
+        font-size: 12px;
+    }
+}
+
+/* LOGOTIPO */
+#logo {
+    height: 35px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    #logo {
+        height: 30px;
+    }
+}
+
+/* FORMATAÇÃO DOS ELEMENTOS NO NAVBAR */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 0 auto;
+}
+
+#menu-nav {
+    justify-content: flex-end;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#lista-nav .item-menu {
+    margin-left: 20px;
+}
+
+.item-menu {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Tektur', cursive;
+    margin-top: 50px;
+}
+
+.item-menu:hover {
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rebeccapurple;
+    border-bottom: 5px solid;
+    border-bottom-color: goldenrod;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.lista-nav li:first-child {
+    margin-left: 0px;
+}
+
+
+
+/* ICONE SUBIR - FLECHA PARA CIMA */
+.btn-inicio {
+    /* text-align: end; */
+    position: fixed;
+    left: 200vh;
+    bottom: 30px;
+    padding: 20px;
+    color: white;
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    .btn-inicio{
+        position: fixed;
+        left: 85%;
+        bottom: 5%;
+        padding: 0px;
+    }
+}
+
+#icone-subir-tela {
+    background-color: goldenrod;
+}
+
+/*FORMATAÇÃO UTILIZADA NOS ELEMENTOS DO RODAPE */
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 0 auto;
+}
+@media screen and (min-width:350px) and (max-width:767px){
+    #rodape{
+        padding-top: 0;
+        padding: 5px;
+    }
+}
+
+#logo-rodape {
+    height: 20px;
+    margin: 5px auto;
+}
+@media screen and (min-width:350px) and (max-width: 767px){
+    #logo-rodape{
+        height: 14px;
+    }
+}
+
+#txt-rodape {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (min-width: 350px) and (max-width: 767px){
+    #txt-rodape, #pag-criada, #rafael-mileris{
+        font-size: 8px;
+    }
+}
+
+#pag-criada,
+#rafael-mileris {
+    color: white;
+}
